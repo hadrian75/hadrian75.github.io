@@ -1,0 +1,35 @@
+.blob {
+    border-radius: 30% 70% 47% 53%;
+}
+.blob{
+    animation: blobchange infinite 10s ease-in-out;
+}
+
+@keyframes blobchange {
+    0%{
+        border-radius: 37% 63% 55% 45% / 46% 31% 69% 54%  ;
+    }
+    50%{
+        border-radius:  26% 74% 55% 45%;
+    }
+    75%{
+        border-radius: 30% 70% 47% 53%  ;
+    }
+    100%{
+        border-radius: 37% 63% 55% 45% / 46% 31% 69% 54%  ;
+    }
+}
+
+::-webkit-scrollbar
+{
+    display: none;
+}
+
+.buttonStyle:hover{
+    background-color: #edc76d;
+    transform: scale(102%);
+    transition: 200ms ease-in;
+background-blend-mode: multiply;
+border-radius: 9999px;
+}
+
